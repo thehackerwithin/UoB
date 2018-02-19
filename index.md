@@ -23,7 +23,7 @@ title: "About"
     {% endif %}
   {% endfor %}
 <li>
-<span>2014-2017</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<span>Previous</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
 </ul>
 
