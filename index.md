@@ -49,13 +49,16 @@ python, R, GitHub, and Jupyter notebooks.
 
 ## Where:
 
-We meet at TBA.
+We meet at {{ site.meet_time }} in {{ site.meet_place }}.
 
 ## When:
 
-TBA - starting officially at TBA, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
-lightning talks and hacking session usually go on until 6:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
-or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
+We meet at {{ site.meet_time }}.  We start officially at that time, but do
+join us for a friendly chat from 15 minutes before if you like.  While the
+main session should occupy less than an hour, the lightning talks and hacking
+session usually go on until 90 minutes after the start time. See the [upcoming
+topics list]({{ site.url }}/upcoming.html) or the
+[calendar](http://bit.ly/1cqFKuh) for the topic for this week.
 
 ## How:
 
@@ -66,23 +69,22 @@ or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
 ### Participating:
 
 Participating is really easy.
-<ul>
-<li>At **5:00pm**, we gather and go through a round of introductions.
-New faces are always appearing!</li>
-<li>Next, a volunteer will give a **tutorial** or lead a
-**discussion** about a
-computational topic. This topic can be anything useful, new, or
-interesting to scientists who compute. It may be some new skill you have recently picked
-up in your research, a productivity tool you have recently learned to love, an overview of a
-useful library, or anything you feel we would enjoy learning.</li>
-<li>Finally, there will be a time for a couple of **Lightning Talks**, which
-are 5-10 minute blasts of information about a particular topic or
-question of interest to the group.
-**Note** that the lightning talk time is a good way to bring a
-question to the group. If you have a bug you need help with, here's the
-place to ask many ears about it at once.
-</li>
-</ul>
+
+*   At **{{ site.meet_time }}**, we gather and go through a round of
+    introductions. New faces are always appearing!
+*   Next, a volunteer will give a **tutorial** or lead a
+    **discussion** about a computational topic. This topic can be anything
+    useful, new, or interesting to scientists who compute. It may be some new
+    skill you have recently picked up in your research, a productivity tool
+    you have recently learned to love, an overview of a useful library, or
+    anything you feel we would enjoy learning.
+*   Finally, there will be a time for a couple of **Lightning Talks**, which
+    are 5-10 minute blasts of information about a particular topic or question
+    of interest to the group.
+
+    **Note** that the lightning talk time is a good way to bring a question to
+    the group. If you have a bug you need help with, here's the place to ask
+    many ears about it at once.
 
 ## Why:
 

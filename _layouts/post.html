@@ -8,7 +8,8 @@ layout: layout
   </h1>
 
   <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }} at TBA in TBA
+      {{ page.date | date: "%B %e, %Y" }} at {{ site.meet_time }} in {{
+      site.meet_place }}.
   </section>
 
   {{ content }}
