@@ -41,25 +41,27 @@ having.
 
 ## Who:
 
-Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC-Berkeley and you don't need to come every week. There is no set of prerequsites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
+Anyone interested how to learn and do things by programming computers is
+welcome to come to our meetings. You don't need to be affiliated with
+the University of Birmingham and you don't need to come every week. There is
+no set of pre-requsites, although we frequently use bash and the command line,
+python, R, GitHub, and Jupyter notebooks.
 
 ## Where:
 
-We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley. It is on the ground floor of the main library. If you walk up the big marble steps across Memorial Glade, then turn left right as you walk in, you'll be there!
+We meet at TBA.
 
 ## When:
 
-Wednesdays at 5pm (Berkeley time -- starting officially at 5:10, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
+TBA - starting officially at TBA, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
 lightning talks and hacking session usually go on until 6:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
-or the [calendar](http://bit.ly/1cqFKuh)
-for the topic for this week.
+or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
 
 ## How:
 
 ### Communications
-* [Mailing list](https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ucb-hacker-within)
-* [Slack channel](http://thehackerwithin.slack.com) if you've got an account
-  * [Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
+
+* [Mailing list](mailto:hacker-within@lists.bham.ac.uk)
 
 ### Participating:
 
