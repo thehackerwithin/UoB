@@ -42,10 +42,13 @@ having.
 ## Who:
 
 Anyone interested how to learn and do things by programming computers is
-welcome to come to our meetings. You don't need to be affiliated with
-the University of Birmingham and you don't need to come every week. There is
-no set of pre-requsites, although we frequently use bash and the command line,
-python, R, GitHub, and Jupyter notebooks.
+welcome to come to our meetings. You don't need to be affiliated with the
+University of Birmingham and you don't need to come every week. There is no
+set of prerequisites, although we frequently use the [command
+line](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29),
+[Python](https://python.org), [R](https://www.r-project.org),
+[GitHub](https://github.com), and [Jupyter
+notebooks](https://jupyter-notebook.readthedocs.io/en/stable/).
 
 ## Where:
 
