@@ -19,18 +19,18 @@ semester.
 
 ### Set Up
 
-
-We love sessions that have example code! If you have example code, please place 
-it in an appropriately named directory in the master branch of this GitHub 
-repository. Make a [pull 
-request](https://help.github.com/articles/creating-a-pull-request/) or push your branch to the
-[thehackerwithin/UoB](http://github.com/thehackerwithin/UoB) fork. 
-If you know how to do that, please go right ahead. If you aren't sure about 
-forks and pull requests, here are some detailed instructions:
+We love sessions that have example code! If you have example code, please
+place it in an appropriately named directory in the master branch of this
+GitHub repository. Make a [pull
+request](https://help.github.com/articles/creating-a-pull-request/) or push
+your branch to the
+[thehackerwithin/UoB](http://github.com/thehackerwithin/UoB) fork. If you know
+how to do that, please go right ahead. If you aren't sure about forks and pull
+requests, here are some detailed instructions:
 
 #### Uploading Example Code
 
-1. Go here: 
+1. Go here:
 [https://github.com/thehackerwithin/UoB](https://github.com/thehackerwithin/UoB)
 2. Press the Fork button ([you'll need a github account](https://github.com/signup))
 3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/UoB.git`
@@ -50,7 +50,12 @@ to your talk.
 
 #### Add Your Tutorial to the Site
 
-Rather than preparing a slideshow, please consider leading as interactive a session as possible. This is often done by leading the audience through whatever code examples you pushed to the master branch. Supportive text can be added to the markdown file holding the blog post for your talk. To add text to that file and to edit your bio, switch branches to the gh-pages branch, where the website it held. There, you may need to both create and modify the post.
+Rather than preparing a slideshow, please consider leading as interactive a
+session as possible. This is often done by leading the audience through
+whatever code examples you pushed to the master branch. Supportive text can be
+added to the markdown file holding the blog post for your talk. To add text to
+that file and to edit your bio, switch branches to the gh-pages branch, where
+the website it held. There, you may need to both create and modify the post.
 
 1. Navigate in your repository to the gh-pages branch with `git checkout gh-pages`
 2. Then, create and modify the post as in the sections below.
@@ -81,9 +86,9 @@ you're creating should be something like 2015-03-01-katysbirthday.markdown.
 
 This is very similar to creating a post:
 
-- if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic 
+- if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic
 - edit the post
-- Commit it: `git commit -am "adds a post for march 1"
+- Commit it: `git commit -am "adds a post for march 1"`
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/UoB .
 - Iterate on this until you're happy
@@ -91,8 +96,8 @@ This is very similar to creating a post:
 
 #### Build the site locally
 
-If you'd like to test the post before pushing or making a PR, you can build the 
-site locally:
+If you'd like to test the post before pushing or making a PR, you can build
+the site locally:
 
 - Install Jekyll: `gem install jekyll`
 - Run the jekyll server: `jekyll --server`
@@ -101,31 +106,30 @@ You should have a server up and running locally at <http://localhost:4000>.
 
 ### Show Up
 
-Please arrive 10-15 minutes before the start time so that you can set up your 
-computer and test out the projector. Please figure out how to zoom in on text 
-that might be too small from the back. Try command-plus-plus in the terminal 
-and other applications. If you're an emacs user on a mac, you may need [accessibility 
-zoom enabled.](https://www.apple.com/accessibility/osx/).
+Please arrive 10-15 minutes before the start time so that you can set up your
+computer and test out the projector. Please figure out how to zoom in on text
+that might be too small from the back. Try command-plus-plus in the terminal
+and other applications. If you're an emacs user on a mac, you may need
+[accessibility zoom enabled.](https://www.apple.com/accessibility/osx/).
 
 ### Speak Up
 
-The Hacker Within isn't a class and no one is required to attend. We show up to 
-have fun and to learn. Hopefully, your tutorial will teach something **useful** 
-in a way that is **enjoyable.** To do this, please consider bringing your 
-A-game. That is, find the enthusiastic tinkering problem-solver inside yourself 
-(The Hacker Within yourself) and bring that version of yourself to share that 
-enthusiasm with us. Enthusiasm is infectious!  
-
+The Hacker Within isn't a class and no one is required to attend. We show up
+to have fun and to learn. Hopefully, your tutorial will teach something
+**useful** in a way that is **enjoyable.** To do this, please consider
+bringing your A-game. That is, find the enthusiastic tinkering problem-solver
+inside yourself (The Hacker Within yourself) and bring that version of
+yourself to share that enthusiasm with us. Enthusiasm is infectious!
 
 ## About this website.
 
 It's all based on something @katyhuff forked. It's called Left.  It uses
-jekyll.  It was extracted from [zachholman.com](http://zachholman.com/). That
-is, we use Left to lay out this jekyll. 
+[Jekyll](https://jekyllrb.com/).  It was extracted from
+[zachholman.com](http://zachholman.com/). That is, we use Left to lay out this
+Jekyll.
 
 Left is a clean, whitespace-happy layout for
 [Jekyll](https://github.com/mojombo/jekyll).
-
 
 ### Content Licensing
 
@@ -140,7 +144,8 @@ Within.
 
 Please attribute any work with a link to its original appearance on this
 domain (i.e., "from The Hacker Within's blog entry 'Segmentation Fault' at
-[thehackerwithin.github.io/blog/posts/segmentation-fault](thehackerwithin.github.io/blog/posts/segmentation-fault) ").
+[thehackerwithin.github.io/blog/posts/segmentation-fault](thehackerwithin.github.io/blog/posts/segmentation-fault)
+").
 
 ### Left Licensing
 
