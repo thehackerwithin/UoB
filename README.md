@@ -28,22 +28,55 @@ your branch to the
 how to do that, please go right ahead. If you aren't sure about forks and pull
 requests, here are some detailed instructions:
 
+#### Getting ready to edit the Hacker Within pages
+
+Use these instructions to get started editing the web pages, adding posts, or
+adding other content to Hacker Within repository, such as example code.
+
+Let's say that your Github username is `YOURUSERNAME`.
+
+1.  Go to the UoB Hacker Within repository at:
+    [https://github.com/thehackerwithin/UoB](https://github.com/thehackerwithin/UoB).
+1.  Press the Fork button ([you'll need a github
+    account](https://github.com/signup)).
+3.  In your terminal, execute `git clone
+    https://github.com/thehackerwithin/UoB.git`
+4.  Enter the new directory with `cd UoB`
+5.  Add a Git remote for your fork with `git remote add YOURUSERNAME
+    https://github.com/YOURUSERNAME/UoB.git`
+6.  Fetch information about your fork with `git fetch YOURUSERNAME`
+7.  Start a new branch for your edits with `git branch --no-track
+    name-of-thing-im-working-on origin/master`.  For example, if you are adding a tutorial
+    on Python, you might do `git branch --no-track add-python-tutorial origin/master`.
+8.  Check out your new branch with something like `git checkout
+    add-python-tutorial` (where `add-python-tutorial` is the name you used in
+    the `git branch` command).
+
+Now you are ready to edit these pages.
+
 #### Uploading Example Code
 
-1. Go here:
-[https://github.com/thehackerwithin/UoB](https://github.com/thehackerwithin/UoB)
-2. Press the Fork button ([you'll need a github account](https://github.com/signup))
-3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/UoB.git`
-4. Enter the new directory with `cd UoB`
-5. Add the THW remote with `git remote add thw https://github.com/thehackerwithin/UoB.git`
-6. Fetch information about the THW remote with `git fetch thw`
-7. Now, you need to check what branch you're in `git branch`
-8. If you're in the master branch, move the important files to an appropriately named directory there. (Browse the directory for examples of other's additions.)
-9. Add the files to the repo: `git add <path to your new files>`
-10. Commit them. `git commit -am "I added files for the tutorial on my 
+Let's say you have some code you'd like to share for a tutorial.  Say the code
+file you want to share is called `my_program.py`.
+
+Follow the instructions above to get the website code and start working in a
+new branch.
+
+7. Check what branch you're in `git branch`.  You should be in your new
+   branch, that you made from the instructions above.
+8. Move your code file to an appropriately named directory.
+   Browse the root directory of the repository for directories other people
+   have used to store code. Make a new directory if you prefer. Say you have
+   chosen the directory `example_code`.  Move your code file to the directory
+   you have chosen, e.g.: `mv my_program.py example_code`.
+9. Add the files to the repo, e.g. `git add example_code/my_program.py`.
+10. Commit the file(s). `git commit -am "I added files for the tutorial on my
     topic.."`
-11. Git push to your origin with `git push origin master`
-12. Navigate in your browser to https://github.com/YOURUSERNAME/UoB and press the pull request button
+11. Git push to your remote with e.g. `git push YOURUSERNAME
+    add-python-tutorial` where YOURUSERNAME is your Github user name, and
+    `add-python-tutorial` is the name of your branch (see above).
+12. Navigate in your browser to https://github.com/YOURUSERNAME/UoB and press
+    the pull request button to ask us to merge your changes into the main website.
 
 Now you're done adding code example files! You'll need to edit the post related
 to your talk.
@@ -52,47 +85,55 @@ to your talk.
 
 Rather than preparing a slideshow, please consider leading as interactive a
 session as possible. This is often done by leading the audience through
-whatever code examples you pushed to the master branch. Supportive text can be
-added to the markdown file holding the blog post for your talk. To add text to
-that file and to edit your bio, switch branches to the gh-pages branch, where
-the website it held. There, you may need to both create and modify the post.
+whatever code examples you have merged to the master branch, using the
+procedure above. Supportive text can be added to the markdown file holding the
+blog post for your talk. To add text to that file and to edit your bio. You
+may need to both create and modify the post.
 
-1. Navigate in your repository to the gh-pages branch with `git checkout gh-pages`
-2. Then, create and modify the post as in the sections below.
+First, if you haven't done so already, follow the instructions above in
+"Getting ready to edit the Hacker Within pages".
+
+Then, create and modify the post as in the sections below.
 
 #### Creating a Post
 
 In the directory that you just cloned (UoB), you'll notice a `_posts`
 directory. The post related to the day and topic of your talk may already
-exist. If so, skip ahead to "Modifying a Post." 
+exist. If so, skip ahead to "Modifying a Post."
 
-If not, you'll need to create it. Thankfully, you'll also notice a
-`_drafts` directory. In the drafts directory, you'll find an empty template for
-meeting minutes `YYYY-MM-DD-subject.markdown`. If you're preparing for a
-special holiday meeting on March 1, 2015, then the proper name for the file
-you're creating should be something like 2015-03-01-katysbirthday.markdown.
+If not, you'll need to create it. Thankfully, you'll also notice a `_drafts`
+directory. In the drafts directory, you'll find an empty template for meeting
+minutes `YYYY-MM-DD-subject.markdown`. If you're preparing for a special
+holiday meeting on March 1, 2015, then the proper name for the file you're
+creating should be something like 2015-03-01-katysbirthday.markdown.
+
+You post is in [Github
+Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax)
+format - see that page for ways of marking up your text.
 
 - In the UoB directory, execute `cp _drafts/YYYY-MM-DD-subject.markdown
   _posts/2015-03-01-katysbirthday.markdown`
-- Then, edit that file as you see fit
+- Then, edit that file as you see fit.
 - Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
 - Commit it: `git commit -am "adds a post for march 1"`
-- Push it to your fork `git push origin gh-pages`
-- Check if it worked at https://YOUR-USER.github.io/UoB .
-- Iterate on this until you're happy
-- and then either push to the upstream gh-pages remote branch or make a pull request.
+- Push it to your fork as above with something like `git push YOURUSERNAME
+  add-python-tutorial -u` where `YOURUSERNAME` is your Github user name, and
+  `add-python-tutorial` is the branch name you chose above.
+- Check how your new post looks by going to https://YOURUSERNAME.github.io/UoB
+  in your browser.  Navigate to your new post.  Some of the page styling will
+  be broken, because your fork is not directly attached to the main Hacker
+  Within website, but check the content looks right for the post.
+- Iterate on this until you are happy - edit, push, review.
+- When you are ready, make a pull request to have your edits merged into the
+  main website.  To do this, navigate in your browser to
+  https://github.com/YOURUSERNAME/UoB and press the pull request button to ask
+  us to merge your changes into the main website.
 
 #### Modifying a Post
 
-This is very similar to creating a post:
-
-- if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic
-- edit the post
-- Commit it: `git commit -am "adds a post for march 1"`
-- Push it to your fork `git push origin gh-pages`
-- Check if it worked at https://YOUR-USER.github.io/UoB .
-- Iterate on this until you're happy
-- and then either push to the upstream gh-pages remote branch or make a pull request.
+This is very similar to creating a post, for which, see the section above.
+The only difference in the process is that, when you are editing a file, you
+do not need to do the initial copy to create your new file.
 
 #### Build the site locally
 
