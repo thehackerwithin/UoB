@@ -27,41 +27,39 @@ title: "About"
 </li>
 </ul>
 
+Most work in academia makes use of computing to analyze data.   Over the last decade there has been an explosion in the number, range and flexibility of software for data analysis.   With so much choice, how do we choose the right tools?  In the face of such complexity, how do we learn to work efficiently and simply, so we can share our work, and properly report our analyses?   We need to find - The Hacker Within.
+
 ## What:
 
-This is a weekly peer learning group for sharing skills and best practices for
-research computing and data science. In these friendly sessions, peers at all levels
-of experience share topics useful in our data analysis and software development
-workflows.
+The Hacker Within is a monthly peer learning group for sharing skills and best practices for research computing and data science. In these friendly sessions, peers at all levels of experience share topics useful in our data analysis and software development workflows.
 
-This meeting would be a great venue for introducing new libraries,
-showing off useful features of a data processing/analysis/visualization library or programming
-language you're using, or bringing up a computational problem you're
-having.
+This meeting would be a great venue for introducing new libraries, showing off useful features of a data processing/analysis/visualisation library or programming language you’re using, or bringing up a computational problem you’re having.
+
+We plan to have regular talks where we present to each other on useful and important tools and practices for effective computing.  We aim to build a community to support the spread of these tools and practices across the University and beyond.
+
+## Why:
+We started this group because we know that using the right tools reduces error and makes us more productive and better at collaborating.  Technology changes fast, and finding the right tool or process for a particular task can be difficult; by presenting the tools that we use and sharing our expertise, we can all learn new ways of working more effectively.
+
 
 ## Who:
 
-Anyone interested how to learn and do things by programming computers is
-welcome to come to our meetings. You don't need to be affiliated with the
-University of Birmingham and you don't need to come every week. There is no
-set of prerequisites, although we frequently use the [command
-line](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29),
-[Python](https://python.org), [R](https://www.r-project.org),
-[GitHub](https://github.com), and [Jupyter
-notebooks](https://jupyter-notebook.readthedocs.io/en/stable/).
+Anyone interested in how to learn and do things by programming computers is welcome to come to our meetings. You don’t need to be affiliated with the University of Birmingham and you don’t need to come to every meeting. There is no set of prerequisites, although we frequently use the command line, Python, R, version control and Jupyter notebooks.
+
+We decide the topics by negotiation in the meeting and on our mailing list, but the main staff contacts are:
+Matthew Brett (m.brett@bham.ac.uk) (College of Life Sciences)
+Research Software Group (bear-software@contacts.bham.ac.uk) (IT Services)
+Debbie Carter (d.j.carter@bham.ac.uk) (IT Services)
+
 
 ## Where:
 
-We meet at {{ site.meet_time }} in {{ site.meet_place }}.
+The next meeting is on Monday 19th March from 1-2pm in room 118, Muirhead
+
 
 ## When:
 
-We meet at {{ site.meet_time }}.  We start officially at that time, but do
-join us for a friendly chat from 15 minutes before if you like.  While the
-main session should occupy less than an hour, the lightning talks and hacking
-session usually go on until 90 minutes after the start time. See the [upcoming
-topics list]({{ site.url }}/upcoming.html) or the
-[calendar](http://bit.ly/1cqFKuh) for the topic for this week.
+We will meet biweekly or monthly, to start off with, at a time / venue to be decided.
+
 
 ## How:
 
@@ -69,40 +67,7 @@ topics list]({{ site.url }}/upcoming.html) or the
 
 * [Mailing list](mailto:hacker-within@lists.bham.ac.uk)
 
-### Participating:
 
-Participating is really easy.
-
-*   At **{{ site.meet_time }}**, we gather and go through a round of
-    introductions. New faces are always appearing!
-*   Next, a volunteer will give a **tutorial** or lead a
-    **discussion** about a computational topic. This topic can be anything
-    useful, new, or interesting to scientists who compute. It may be some new
-    skill you have recently picked up in your research, a productivity tool
-    you have recently learned to love, an overview of a useful library, or
-    anything you feel we would enjoy learning.
-*   Finally, there will be a time for a couple of **Lightning Talks**, which
-    are 5-10 minute blasts of information about a particular topic or question
-    of interest to the group.
-
-    **Note** that the lightning talk time is a good way to bring a question to
-    the group. If you have a bug you need help with, here's the place to ask
-    many ears about it at once.
-
-## Why:
-
-The tenets of scientiﬁc endeavor (e.g., data control, reproducibility,
-comprehensive documentation, and peer review) suffer in projects that fail
-to make use of current development tools such as unit testing, version
-control, automated documentation, and others.
-
-To avoid these pitfalls, this weekly meeting exists for sharing skills and best practices for
-computational scientific applications. This group is modeled after The
-Hacker Within, which  began as a student organization at the University of Wisconsin-Madison and
-is now reborn as a collection of such chapters around the world. Each of
-the chapters convenes a community of scientists, at all levels of their
-education and training, to share their knowledge and best practices in
-using computing to accomplish their work.
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
