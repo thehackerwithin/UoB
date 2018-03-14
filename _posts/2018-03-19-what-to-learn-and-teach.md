@@ -2,7 +2,7 @@
 layout: post
 title: Introduction, and what to Learn and Teach for Spring 2018
 comments: true
-category: posts
+category: upcoming
 tags: meeting <+ tags +>
 ---
 
