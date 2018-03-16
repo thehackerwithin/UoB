@@ -8,6 +8,8 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
+To keep up to date - join the [Mailing list](mailto:hacker-within@lists.bham.ac.uk).
+
 <b>Spring 2018 is here!</b>
 
 <ul class="listing">
@@ -47,10 +49,10 @@ We started this group because we know that using the right tools reduces error a
 Anyone interested in how to learn and do things by programming computers is welcome to come to our meetings. You don’t need to be affiliated with the University of Birmingham and you don’t need to come to every meeting. There is no set of prerequisites, although we frequently use the command line, Python, R, version control and Jupyter notebooks.
 
 We decide the topics by negotiation in the meeting and on our mailing list, but the main staff contacts are:
-Matthew Brett (m.brett@bham.ac.uk) (College of Life Sciences)
-Research Software Group (bear-software@contacts.bham.ac.uk) (IT Services)
-Debbie Carter (d.j.carter@bham.ac.uk) (IT Services)
 
+* Matthew Brett (m.brett@bham.ac.uk) (College of Life Sciences);
+* Research Software Group (bear-software@contacts.bham.ac.uk) (IT Services);
+* Debbie Carter (d.j.carter@bham.ac.uk) (IT Services).
 
 ## Where:
 
@@ -60,15 +62,6 @@ The next meeting is on Monday 19th March from 1-2pm in room 118, Muirhead
 ## When:
 
 We will meet biweekly or monthly, to start off with, at a time / venue to be decided.
-
-
-## How:
-
-### Communications
-
-* [Mailing list](mailto:hacker-within@lists.bham.ac.uk)
-
-
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
