@@ -11,10 +11,7 @@ title: "About"
 To keep up to date - join the mailing list.  To subscribe, email
 [Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with a "plain text"
 (not HTML) email, having the following text as the body of the email:
-
-```
-subscribe hacker-within
-```
+`subscribe hacker-within`
 
 Please make sure there is a new line at the end.
 
