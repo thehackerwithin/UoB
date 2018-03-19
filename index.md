@@ -13,7 +13,7 @@ To keep up to date - join the mailing list.  To subscribe, email
 (not HTML) email, having the following text as the body of the email:
 
 ```
-subscribe hacker-within` in the main *body*
+subscribe hacker-within
 ```
 
 Please make sure there is a new line at the end.
