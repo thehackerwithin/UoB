@@ -8,7 +8,13 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-To keep up to date - join the [Mailing list](mailto:hacker-within@lists.bham.ac.uk).
+To keep up to date - join the mailing list.  To subscribe  please email
+[Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with `subscribe
+hacker-within` in the main *body* of the email (please include a new line at
+the end).
+
+After following those instructions, you should be able to [mail the
+list](mailto:hacker-within@lists.bham.ac.uk).
 
 <b>Spring 2018 is here!</b>
 
