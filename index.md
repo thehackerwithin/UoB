@@ -8,10 +8,19 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-To keep up to date - join the mailing list.  To subscribe, please email
-[Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with the text
-`subscribe hacker-within` in the main *body* of the email (please include a
-new line at the end).
+To keep up to date - join the mailing list.  To subscribe, email
+[Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with a "plain text"
+(not HTML) email, having the following text as the body of the email:
+
+```
+subscribe hacker-within` in the main *body*
+```
+
+Please make sure there is a new line at the end.
+
+If you have any problems subscribing then just email
+[bear-software@contacts.bham.ac.uk](bear-software@contacts.bham.ac.uk) and we
+can subscribe you.
 
 After following those instructions, you should be able to [mail the
 list](mailto:hacker-within@lists.bham.ac.uk).
