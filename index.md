@@ -8,7 +8,7 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-To keep up to date - join the mailing list.  To subscribe  please email
+To keep up to date - join the mailing list.  To subscribe, please email
 [Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with `subscribe
 hacker-within` in the main *body* of the email (please include a new line at
 the end).
