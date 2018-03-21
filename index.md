@@ -62,13 +62,13 @@ Anyone interested in how to learn and do things by programming computers is welc
 
 We decide the topics by negotiation in the meeting and on our mailing list, but the main staff contacts are:
 
-* Matthew Brett (m.brett@bham.ac.uk) (College of Life Sciences);
-* Research Software Group (bear-software@contacts.bham.ac.uk) (IT Services);
-* Debbie Carter (d.j.carter@bham.ac.uk) (IT Services).
+* Matthew Brett [m.brett@bham.ac.uk](m.brett@bham.ac.uk) (College of Life Sciences);
+* Research Software Group [bear-software@contacts.bham.ac.uk](bear-software@contacts.bham.ac.uk) (IT Services);
+* Debbie Carter [d.j.carter@bham.ac.uk](d.j.carter@bham.ac.uk) (IT Services).
 
 ## Where:
 
-The next meeting is on Monday 19th March from 1-2pm in room 118, Muirhead
+The next meeting is on Monday 16th April from 1-2pm in room 121, Muirhead
 
 
 ## When:
