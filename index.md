@@ -68,7 +68,7 @@ We decide the topics by negotiation in the meeting and on our mailing list, but 
 
 ## Where:
 
-The next meeting is on Monday 16th April from 1-2pm in room 121, Muirhead
+The next meeting is on Monday 21st May from 1-2pm in room UG07, Murray Learning Centre
 
 
 ## When:
