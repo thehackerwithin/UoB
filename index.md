@@ -39,8 +39,10 @@ list](mailto:hacker-within@lists.bham.ac.uk).
 <li>
 <span>Previous</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
+<li>
+<span>Other pages</span><a href="{{ site.url }}/other.html">Other pages</a>
+</li>
 </ul>
-
 
 Most work in academia makes use of computing to analyze data.   Over the last decade there has been an explosion in the number, range and flexibility of software for data analysis.   With so much choice, how do we choose the right tools?  In the face of such complexity, how do we learn to work efficiently and simply, so we can share our work, and properly report our analyses?   We need to find - The Hacker Within.
 
@@ -53,6 +55,7 @@ This meeting would be a great venue for introducing new libraries, showing off u
 We plan to have regular talks where we present to each other on useful and important tools and practices for effective computing.  We aim to build a community to support the spread of these tools and practices across the University and beyond.
 
 ## Why:
+
 We started this group because we know that using the right tools reduces error and makes us more productive and better at collaborating.  Technology changes fast, and finding the right tool or process for a particular task can be difficult; by presenting the tools that we use and sharing our expertise, we can all learn new ways of working more effectively.
 
 
