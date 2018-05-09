@@ -6,7 +6,7 @@ title: "About"
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
 <section class="content">
 
-# The {{ site.name }}, {{ site.chapter }}
+# The {{ site.title }}, {{ site.chapter }}
 
 To keep up to date - join the mailing list.  To subscribe, email
 [Majordomo@lists.bham.ac.uk](Majordomo@lists.bham.ac.uk) with a "plain text"

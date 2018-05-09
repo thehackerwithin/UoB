@@ -9,7 +9,7 @@ kramdown:
 github:
   owner_url: https://github.com/thehackerwithin/UoB
 url: http://thehackerwithin.org/UoB
-name: Hacker Within
+title: Hacker Within
 chapter: University of Birmingham, UK
 meet_time: 1-2.30pm
 meet_place: 118 Muirhead
