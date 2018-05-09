@@ -28,7 +28,7 @@ list](mailto:hacker-within@lists.bham.ac.uk).
 <li>
 <span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
-  {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
+  {% assign upcoming = site.posts | where: "category" , "upcoming" %}
   {% for post in upcoming reversed %}
     {% if forloop.first %}
 	<li style="text-indent: 2em;">

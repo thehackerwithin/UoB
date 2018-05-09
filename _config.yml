@@ -23,3 +23,6 @@ defaults:
       path: "" # empty -> all files
     values:
       layout: "layout"
+# Enable strict error checking like so:
+# liquid:
+#  error_mode: strict
