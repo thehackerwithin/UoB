@@ -39,9 +39,6 @@ list](mailto:hacker-within@lists.bham.ac.uk).
 <li>
 <span>Previous</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
-<li>
-<span>Other pages</span><a href="{{ site.url }}/other.html">Other pages</a>
-</li>
 </ul>
 
 Most work in academia makes use of computing to analyze data.   Over the last decade there has been an explosion in the number, range and flexibility of software for data analysis.   With so much choice, how do we choose the right tools?  In the face of such complexity, how do we learn to work efficiently and simply, so we can share our work, and properly report our analyses?   We need to find - The Hacker Within.
