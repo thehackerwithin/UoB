@@ -1,11 +1,6 @@
----
-layout: layout
-title: "Other pages"
----
+<section class="content">
 
 # Other pages
-
-<section class="content">
 
 Please see our [members recommend](./members_recommend.html) page.
 

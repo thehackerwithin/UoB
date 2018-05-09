@@ -1,11 +1,6 @@
----
-layout: layout
-title: "THW members recommend"
----
+<section class="content">
 
 # THW members recommend
-
-<section class="content">
 
 Here THW members recommend resources they found useful.
 
