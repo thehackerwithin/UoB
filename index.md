@@ -73,7 +73,9 @@ The next meeting is on Monday 21st May from 1-2pm in room UG07, Murray Learning 
 
 ## When:
 
-We will meet biweekly or monthly, to start off with, at a time / venue to be decided.
+We will meet on the third Monday of each month, to start off with, at a time /
+venue that may shift from meeting to meeting.  We have used 121 Muirhead and
+the Murray Learning Centre.
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
