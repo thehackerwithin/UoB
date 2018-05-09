@@ -17,3 +17,9 @@ description: An initial blog and site for THW at UoB
 twitter: hackerwithin
 gravatar_url: http://www.gravatar.com/avatar/0203c034a145af6cc2576d56cdb4cf73
 disqus_username:
+defaults:
+  -
+    scope:
+      path: "" # empty -> all files
+    values:
+      layout: "layout"
