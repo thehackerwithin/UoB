@@ -1,4 +1,7 @@
-# THW members recommend
+---
+layout: layout
+title: "THW members recommend"
+---
 
 Here THW members recommend resources they found useful.
 
