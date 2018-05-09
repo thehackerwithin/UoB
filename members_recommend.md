@@ -3,6 +3,10 @@ layout: layout
 title: "THW members recommend"
 ---
 
+# THW members recommend
+
+<section class="content">
+
 Here THW members recommend resources they found useful.
 
 ## Version control
@@ -11,3 +15,5 @@ Here THW members recommend resources they found useful.
   resource for learning Git, in particular branching, rebasing, cherry-picking
   and working with remotes.  We will definitely be using it to train people in
   BCTU in the future (Matt Hill).
+
+</section>
