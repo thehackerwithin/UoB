@@ -10,7 +10,7 @@ Upcoming Topics
 
 **Summer 2018**
 
-The next meeting will be a "language gallery" where a champion for each language will highlight its potential uses, followed by questions.
+The next meeting on Monday 25th June from 1-2pm in room UG07, Murray Learning Centre will be a "language gallery" where a champion for each language will highlight its potential uses, followed by questions.
 
 We'll be talking about these 4 popular languages, each of which are more or less essential in their own niche:
 
