@@ -10,6 +10,8 @@ Upcoming Topics
 
 **Spring 2018**
 
+The next meeting will be a language shootout where a champion for each language, such as Python, will highlight its potential uses etc, followed by questions.
+
 In addition to these topics, Lightning Talks are welcome at the end of every session, so please don't hesitate to bring some tidbit to share. Also, if you would like to contribute to a topic, contact the volunteer in charge of that topic to see if they would like to collaborate.
 
 <ul class="listing">
