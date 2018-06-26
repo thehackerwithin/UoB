@@ -16,7 +16,7 @@ In this meeting, we'll be talking about these 4 popular languages, each of
 which are more or less essential in their own niche:
 
 * [Python](https://www.python.org/about);
-* [R](https://www.r-project.org/about.html);
+* [R](https://www.r-project.org/about.html) - [get example code and data files](https://github.com/Murray2015/UoB/tree/language_gallery_R/R_language_gallery);
 * [Javascript](https://www.javascript.com);
 * [Matlab](https://uk.mathworks.com/products/matlab.html).
 
