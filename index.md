@@ -68,7 +68,7 @@ We decide the topics by negotiation in the meeting and on our mailing list, but 
 
 ## Where:
 
-The next meeting is on Monday 25th June from 1-2pm in room UG07, Murray Learning Centre
+The next meeting is on Monday 16th July from 1-2pm in room G13, Nuffield building
 
 
 ## When:
