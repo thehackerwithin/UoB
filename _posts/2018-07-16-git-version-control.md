@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Language Gallery
+title: Git and version control
 comments: true
 category: posts
 tags: meeting <+ tags +>
