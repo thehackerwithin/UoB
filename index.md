@@ -22,11 +22,11 @@ can subscribe you.
 After following those instructions, you should be able to [mail the
 list](mailto:hacker-within@lists.bham.ac.uk).
 
-<b>Spring 2018 is here!</b>
+<b>Summer 2018 is here!</b>
 
 <ul class="listing">
 <li>
-<span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Summer 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
   {% assign upcoming = site.posts | where: "category" , "upcoming" %}
   {% for post in upcoming reversed %}
