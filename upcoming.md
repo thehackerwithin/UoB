@@ -10,7 +10,7 @@ Upcoming Topics
 
 **Summer 2018**
 
-The next meeting on Monday 16th July from 1-2pm in room G13, Nuffield building, will focus on Git and version control.
+The next meeting will be in August, time, date, venue to be announced.
 
 If you would like to volunteer as a speaker, please email Matthew Brett (m.brett@bham.ac.uk).
 
