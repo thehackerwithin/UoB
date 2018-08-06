@@ -12,6 +12,9 @@ full_df = pd.read_table(fname, encoding='utf_16_le')
 # Drop the first 19 questions (potentially identifying).
 df = full_df.iloc[:, 19:].copy()
 
+# Drop the last column (doesn't have any useful data)
+df.drop(columns='Q3 - Topics', inplace=True)
+
 # The first row has a description of the questions.
 descriptions = df.iloc[0, :]
 # The second has an import-id.
@@ -19,18 +22,35 @@ descriptions = df.iloc[0, :]
 df.drop([0, 1], inplace=True)
 
 # Replace column names with more readable versions
-replacements = {"Q11": "key_tools",
-                "Q13": "languages",
-                "Q14": "practices",
-                "Q15": "libraries",
-                "Q16": "tools"}
+replacements = {}
+
+
+def desc_to_word(in_str):
+    parts = in_str.lower().strip().split()
+    if parts[0] == 'the':
+        parts.pop(0)
+    return parts[0]
+
+
+def to_var(in_str):
+    return '_'.join(in_str.lower().strip().split())
+
 
 names = df.columns
 for name, description in zip(names, descriptions):
-    if not name.startswith('Q17'):
+    d_parts = description.split(' - ')
+    if name.startswith('Q17'):
+        d_type = to_var(d_parts[1])
+        replacements[name] = 'category-' + d_type
         continue
-    d_type = description.split(' - ')[1].lower().replace(' ', '_')
-    replacements[name] = 'category_' + d_type
+    # A group / rank question
+    area = to_var(d_parts[0].split('.')[0])
+    grp_rank = to_var(d_parts[1])
+    y_m = to_var(d_parts[2].split(' ')[0])
+    name_parts = [area, grp_rank, y_m]
+    if grp_rank == 'ranks':
+        name_parts.append(desc_to_word(d_parts[3]))
+    replacements[name] = '-'.join(name_parts)
 
 
 new_names = []
