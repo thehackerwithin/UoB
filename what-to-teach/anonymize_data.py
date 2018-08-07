@@ -12,17 +12,14 @@ full_df = pd.read_table(fname, encoding='utf_16_le')
 # Drop the first 19 questions (potentially identifying).
 df = full_df.iloc[:, 19:].copy()
 
-# Drop the last column (doesn't have any useful data)
+# Drop the another column (doesn't have any useful data)
 df.drop(columns='Q3 - Topics', inplace=True)
 
 # The first row has a description of the questions.
 descriptions = df.iloc[0, :]
 # The second has an import-id.
-# Drop these preliminaries.
+# Drop these from the current dataframe.
 df.drop([0, 1], inplace=True)
-
-# Replace column names with more readable versions
-replacements = {}
 
 
 def desc_to_word(in_str):
@@ -36,30 +33,28 @@ def to_var(in_str):
     return '_'.join(in_str.lower().strip().split())
 
 
-names = df.columns
-for name, description in zip(names, descriptions):
+# Replace Q11_0_1_RANK etc names with something more descriptive
+new_names = []
+for name, description in zip(df.columns, descriptions):
     d_parts = description.split(' - ')
     if name.startswith('Q17'):
+        # Rank categories question variables
         d_type = to_var(d_parts[1])
-        replacements[name] = 'category-' + d_type
+        new_names.append('category-' + d_type)
         continue
-    # A group / rank question
+    # A group / rank questions
+    # key tools, language etc
     area = to_var(d_parts[0].split('.')[0])
+    # Whether this is a group or rank variable
     grp_rank = to_var(d_parts[1])
+    # Whether this is a Yes or a Maybe variable
     y_m = to_var(d_parts[2].split(' ')[0])
     name_parts = [area, grp_rank, y_m]
     if grp_rank == 'ranks':
+        # The option to which rank refers
         name_parts.append(desc_to_word(d_parts[3]))
-    replacements[name] = '-'.join(name_parts)
+    new_names.append('-'.join(name_parts))
 
-
-new_names = []
-for name in names:
-    for key, value in replacements.items():
-        if name.startswith(key):
-            name = value + name[len(key):]
-            break
-    new_names.append(name)
 df.columns = new_names
 
 # Save cleaned data to csv

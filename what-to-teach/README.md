@@ -11,7 +11,7 @@ That gives you a zip file with name like
 
 Unzip into this directory to give you the similarly named `.tsv` file.
 
-Process with:
+Process with something like:
 
 ```
 python anonymize_data.py "Hacker Within topics_August 6, 2018_08.47.tsv"
