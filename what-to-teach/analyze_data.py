@@ -1,12 +1,12 @@
 """ Analyze cleaned survey data
 
-Run tests with pytest test_analyze_data.py
+See anonymize_data.py for structure of data frame.
+
+Run tests with::
+
+    pytest test_analyze_data.py
 """
 from __future__ import division
-
-import pandas as pd
-
-df = pd.read_csv('thw_survey.csv')
 
 
 def ana_question(df, q_root):
@@ -26,8 +26,24 @@ def ana_part(cols):
     return (n - (cols - 1)) / n
 
 
-categories = [q for q in df.columns if q.startswith('category')]
-cat_names = [q.split('-')[-1] for q in categories]
-cat_rank_mean = dict(zip(cat_names, df[categories].mean()))
+def process_data(df):
+    categories = [q for q in df.columns if q.startswith('category')]
+    cat_names = [q.split('-')[-1] for q in categories]
+    cat_rank_mean = dict(zip(cat_names, df[categories].mean()))
+    cat_scores = {c_name: ana_question(df, c_name) for c_name in cat_names}
+    return cat_rank_mean, cat_scores
 
-cat_scores = {c_name: ana_question(df, c_name) for c_name in cat_names}
+
+def main():
+    from pprint import pprint
+    import pandas as pd
+    df = pd.read_csv('thw_survey.csv')
+    cat_rank_mean, cat_scores = process_data(df)
+    print('Mean rank of categories')
+    pprint(cat_rank_mean)
+    print('Composite ranking score within categories')
+    pprint(cat_scores)
+
+
+if __name__ == '__main__':
+    main()
