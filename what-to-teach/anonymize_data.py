@@ -22,15 +22,33 @@ descriptions = df.iloc[0, :]
 df.drop([0, 1], inplace=True)
 
 
-def desc_to_word(in_str):
-    parts = in_str.lower().strip().split()
-    if parts[0] == 'the':
-        parts.pop(0)
-    return parts[0]
-
-
 def to_var(in_str):
     return '_'.join(in_str.lower().strip().split())
+
+
+OPTION_RECODER = {'code': 'testing',
+                  'continuous': 'continuous_integration',
+                  'programming': 'programming_paradigms',
+                  'data': 'visualization',
+                  'object': 'object_oriented',
+                  'different': 'data_modes',
+                  'running': 'bear_batch',
+                  'api': 'api_driven_development',
+                  'fast': 'fast_databases',
+                  'version': 'version_control_git',
+                  'choosing': 'choosing_text_editor',
+                  'comparing': 'comparing_vc_software',
+                  'mean': 'MEAN_software_stack',
+                 }
+
+
+def get_opt(in_str):
+    parts = in_str.lower().strip().split()
+    if len(parts) > 1 and parts[1] == 'node.js':
+        return parts[1]
+    opt = parts[1] if parts[0] == 'the' else parts[0]
+    return OPTION_RECODER.get(opt, opt)
+
 
 
 # Replace Q11_0_1_RANK etc names with something more descriptive
@@ -52,7 +70,7 @@ for name, description in zip(df.columns, descriptions):
     name_parts = [area, grp_rank, y_m]
     if grp_rank == 'ranks':
         # The option to which rank refers
-        name_parts.append(desc_to_word(d_parts[3]))
+        name_parts.append(get_opt(d_parts[3]))
     new_names.append('-'.join(name_parts))
 
 df.columns = new_names
