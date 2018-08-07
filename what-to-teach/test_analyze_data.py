@@ -10,7 +10,8 @@ from numpy import nan, allclose
 
 import pandas as pd
 
-from analyze_data import ana_question, ana_part
+from analyze_data import (ana_question, ana_part, category_weights,
+                          get_categories)
 
 # Version of allclose that also checks NaN values are in correct position
 def nallclose(first, second):
@@ -110,8 +111,11 @@ def test_ana_question():
                        'q1-ranks-maybe-opt1': [nan, nan],
                        'q1-ranks-maybe-opt2': [nan, nan]})
     assert dallclose(ana_question(df, 'q1'),
-                     {'opt1': 3,
-                      'opt2': 4})
+                     {'opt1': 1.5 + 1.5,
+                      'opt2': 2 + 2})
+    assert dallclose(ana_question(df, 'q1', row_weights=[1, 0.5]),
+                     {'opt1': 1.5 + 1.5 * 0.5,
+                      'opt2': 2 + 2 * 0.5})
     df = pd.DataFrame({'q1-ranks-yes-opt1': [nan, 1],
                        'q1-ranks-yes-opt2': [1, nan],
                        'q1-ranks-maybe-opt1': [1, nan],
@@ -119,3 +123,27 @@ def test_ana_question():
     assert dallclose(ana_question(df, 'q1'),
                      {'opt1': 2 + 1,
                       'opt2': 2 + 1})
+    # Test weighting
+    assert dallclose(ana_question(df, 'q1', row_weights=[1, 0.5]),
+                     {'opt1': 1 + 1,
+                      'opt2': 2 + 0.5})
+
+
+
+def test_category_weights():
+    df = pd.DataFrame({'cola': [1, nan, nan],
+                       'colb': [nan, 3, nan],
+                       'colc': [nan, nan, 2]})
+    assert get_categories(df) == []
+    assert category_weights(df).empty
+    df = pd.DataFrame({'category-one': [1, 2],
+                       'category-two': [2, 1]})
+    assert get_categories(df) == ['category-one', 'category-two']
+    exp = pd.DataFrame({'one': [1, 0.5],
+                        'two': [0.5, 1]})
+    assert category_weights(df).equals(exp)
+    df = pd.DataFrame({'category-one': [1, nan],
+                       'category-two': [nan, 1]})
+    exp = pd.DataFrame({'one': [1., 0.],
+                        'two': [0., 1.]})
+    assert category_weights(df).equals(exp)
