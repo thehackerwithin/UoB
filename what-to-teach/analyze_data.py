@@ -1,4 +1,6 @@
 """ Analyze cleaned survey data
+
+Run tests with pytest test_analyze_data.py
 """
 from __future__ import division
 
