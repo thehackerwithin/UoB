@@ -10,7 +10,7 @@ Upcoming Topics
 
 **Summer 2018**
 
-The next meeting will be in August, time, date, venue to be announced.
+See below for upcoming meetings.
 
 If you would like to volunteer as a speaker, please email Matthew Brett (m.brett@bham.ac.uk).
 
