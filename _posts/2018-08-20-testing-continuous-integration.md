@@ -82,3 +82,21 @@ Make sure you have these two things on your computer:
 
 *   You should see the printout of "Running tests", and "Finished".
     Congratulations, you are all set for some test-driven development.
+
+## Continuous integration
+
+Notice the
+[.travis.yml](https://github.com/matthew-brett/play-poker/blob/master/.travis.yml)
+file in the repository.  This is a configuration file for the free
+[Travis-CI](https://www.travis-ci.com) continuous integration service.
+
+Now we ask Travis-CI to run our tests each time we do a new commit to the
+repository.
+
+Go to the [https://www.travis-ci.com](https://www.travis-ci.com) front page.
+Click on the green button "Sign up with Github".  Click on the green button at
+the bottom of the page: "Authorize travis-pro". Select the `play-poker`
+repository.
+
+All done.  The next time you make a commit to the `play-poker` repository,
+Travis-CI will run the tests for you.
