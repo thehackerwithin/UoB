@@ -31,17 +31,14 @@ Make sure you have these two things on your computer:
 *   If you haven't got an account, make one now.  Use your `.bham.ac.uk`
     address, it gives you access to some education features (if you ask for
     them).
-*   Make you're at the home page [https://github.com](https://github.com).
-*   Click on the "+" at top right of the screen.  Choose "New repository".
-*   Set "play-poker" as the repository name.
-*   Put anything you like (or nothing) into the "Description" field.
-*   Check the checkbox for "Initialize this repository with a README".
-*   In the "Add a license" list box, select "BSD 2-Clause 'Simplified'
-    License" 
-*   Click the big green "Create repository" button.
-*   You should be on your new repository home page.
-*   Select the URL of your repository from the URL bar, and copy it.  The URL
-    will be of form ``https://github.com/your-user-name/play-poker``.
+*   Navigate to
+    [https://github.com/matthew-brett/play-poker](https://github.com/matthew-brett/play-poker)
+*   Click on the "Fork" button just below the top right of the screen.  Wait
+    for a bit.  You should now be looking at your own *fork* of my
+    `play-poker` repository.
+*   Select the URL of your new forked repository from the URL bar, and copy
+    it.  The URL will be of form
+    ``https://github.com/your-user-name/play-poker``.
 *   Open the terminal (Cmd-spacebar "Terminal" on Mac, Start key "git bash"
     on Windows)
 *   Change directory to the Desktop:
@@ -68,32 +65,10 @@ Make sure you have these two things on your computer:
 
 *   If you're on Windows - press the "Start key" then type "Spyder" (no
     quotes).  Press return.  The Spyder editor should start.  Click on File,
-    select Save As, navigate to the `Desktop/play-poker` directory, and change
-    the name to `poker.py`.  Save.
-*   On Mac - in the Terminal, type `nano poker.py`.
-
-*   On Windows or Mac, clear the current contents of `poker.py` if there is
-    any, and replace with:
-
-    ```python
-    """ Make poker hands
-    """
-
-
-    def test_new_deck():
-        # Test new_deck function
-        return None
-
-
-    if __name__ == "__main__":
-        test_new_deck()
-    ```
-
-    Save.
-
-*   On Windows, in Spyder, click the green run (play) icon.
-*   On Mac, start a new tab in Terminal (Shell menu, New tab).  In that tab,
-    check you are in the ``Desktop/play-poker` directory with
+    select Open, navigate to the Desktop `play-poker` folder, and select
+    `poker.py`. Click the green run (play) icon to run the file.
+*   On Mac, in Terminal.app, check you are in the ``Desktop/play-poker`
+    directory with:
 
     ```
     pwd
@@ -104,3 +79,6 @@ Make sure you have these two things on your computer:
     ```
     python poker.py
     ```
+
+*   You should see the printout of "Running tests", and "Finished".
+    Congratulations, you are all set for some test-driven development.
