@@ -93,21 +93,21 @@ interactive Python prompt.
      right pane in your Spyder window arrangement.
 *    Mac: first check you have IPython installed by typing:
 
-    ```
-    python -m IPython --version
-    ```
+     ```
+     python -m IPython --version
+     ```
 
-    If this gives an error, type:
+     If this gives an error, type:
 
-    ```
-    pip install --user ipython
-    ```
+     ```
+     pip install --user ipython
+     ```
 
-    Now type:
+     Now type:
 
-    ```
-    python -m IPython
-    ```
+     ```
+     python -m IPython
+     ```
 
 Now you will have a prompt of form `In [1]: `.  Type `2 + 3` and press return.
 This should execute and return 5.
