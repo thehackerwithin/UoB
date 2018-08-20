@@ -25,6 +25,15 @@ Make sure you have these two things on your computer:
     of Vim (I use Vim, but if you are not used to it, it's a terrible choice
     for getting started as quickly as possible).
 
+## Improving as a programmer
+
+*   Does an academic need to be a good programmer?
+*   What is a good programmer?
+
+    * [Teach yourself programming in 10
+      years](https://www.norvig.com/21-days.html).
+    * [Winning programming competitions](https://youtu.be/DdmyUZCl75s).
+
 ## Preparing to use Github
 
 *   Go to [https://github.com](https://github.com)
