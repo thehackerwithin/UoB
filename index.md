@@ -82,3 +82,9 @@ venue that may shift from meeting to meeting (see above).
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 </section>
+
+## Talk videos
+
+Have a look at the [Hacker Within Canvas
+course](https://canvas.bham.ac.uk/courses/33864) for links to talk videos, if
+they are available.
