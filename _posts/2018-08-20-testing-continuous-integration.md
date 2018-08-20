@@ -32,7 +32,8 @@ Make sure you have these two things on your computer:
 
     * [Teach yourself programming in 10
       years](https://www.norvig.com/21-days.html).
-    * [Winning programming competitions](https://youtu.be/DdmyUZCl75s).
+    * [Winning a programming competition is not what you
+      need](https://youtu.be/DdmyUZCl75s).
 
 ## Preparing to use Github
 
