@@ -2,13 +2,18 @@
 layout: post
 title: Testing and continuous integration
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
 * when: Monday 20 July, 1-2.30pm.
 * where: Muirhead 112
 * what: Testing and continuous integration
+
+## Stream of talk
+
+Try [this
+link](https://bham.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7ee182bc-003d-4394-9b6b-a94200c81d6b)
 
 ## Getting set up
 
@@ -200,7 +205,6 @@ Try this:
 
 ```python
 'Hearts Diamonds Clubs Spades'.split()
-SUITS
 ```
 
 This should be a four element list of suit names.
