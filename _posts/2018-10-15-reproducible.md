@@ -2,7 +2,7 @@
 layout: post
 title: Reproducible research
 comments: true
-category: upcoming
+category: past
 tags: meeting <+ tags +>
 ---
 
