@@ -12,4 +12,5 @@ tags: meeting <+ tags +>
 
 ## Presenter
 
-Simon Branford, from the Research Software Group in Advanced Research Computing.
+Simon Branford, from the Research Software Group in Advanced Research Computing.  You
+can find the slides [here](../slides/20181015_TheHackerWithin_ReproducibleResearch.pdf)
