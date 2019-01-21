@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hacking copyright : An Anecdotal History from Saint Columba to Richard Stallman
+title: "Hacking copyright : An Anecdotal History from Saint Columba to Richard Stallman"
 comments: true
 category: posts
 tags: meeting <+ tags +>
