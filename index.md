@@ -22,11 +22,10 @@ can subscribe you.
 After following those instructions, you should be able to [mail the
 list](mailto:hacker-within@lists.bham.ac.uk).
 
-<b>Spring 2018 is here!</b>
 
 <ul class="listing">
 <li>
-<span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
   {% assign upcoming = site.posts | where: "category" , "upcoming" %}
   {% for post in upcoming reversed %}
@@ -62,22 +61,29 @@ Anyone interested in how to learn and do things by programming computers is welc
 
 We decide the topics by negotiation in the meeting and on our mailing list, but the main staff contacts are:
 
-* Matthew Brett [m.brett@bham.ac.uk](m.brett@bham.ac.uk) (College of Life Sciences);
+* Matthew Brett [m.brett@bham.ac.uk](m.brett@bham.ac.uk) (College of Life and
+  Environmental Sciences);
 * Research Software Group [bear-software@contacts.bham.ac.uk](bear-software@contacts.bham.ac.uk) (IT Services);
 * Debbie Carter [d.j.carter@bham.ac.uk](d.j.carter@bham.ac.uk) (IT Services).
 
 ## Where:
 
-The next meeting is on Monday 21st May from 1-2pm in room UG07, Murray Learning Centre
-
+The meetings move around quite a bit.  Please see the [upcoming meetings
+page]({{ site.baseurl }}{% link upcoming.md %}) for the location of the next
+meeting.
 
 ## When:
 
 We will meet on the third Monday of each month, to start off with, at a time /
-venue that may shift from meeting to meeting.  We have used 121 Muirhead and
-the Murray Learning Centre.
+venue that may shift from meeting to meeting (see above).
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 </section>
+
+## Talk videos
+
+Have a look at the [Hacker Within Canvas
+course](https://canvas.bham.ac.uk/courses/33864) for links to talk videos, if
+they are available.

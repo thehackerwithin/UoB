@@ -6,7 +6,7 @@ category: posts
 tags: meeting <+ tags +>
 ---
 
-The second meeting of The Hacker Within at the University of Birmingham will be:
+The second meeting of The Hacker Within at the University of Birmingham was:
 
 * when: Monday 16th April, 1-2.30pm.
 * where: Room 118 Muirhead
