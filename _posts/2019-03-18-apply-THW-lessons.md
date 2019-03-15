@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Applying THW lessons to a research project
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting
 ---
 
 
