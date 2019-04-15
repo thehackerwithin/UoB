@@ -2,7 +2,7 @@
 layout: post
 title: "One year on: a review of THW, lessons learned and next steps"
 comments: true
-category: upcoming posts
+category: upcoming
 tags: meeting <+ tags +>
 ---
 
