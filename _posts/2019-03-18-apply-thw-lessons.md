@@ -2,7 +2,7 @@
 layout: post
 title: Applying THW lessons to a research project
 comments: true
-category: upcoming
+category: previous
 tags: meeting
 ---
 
