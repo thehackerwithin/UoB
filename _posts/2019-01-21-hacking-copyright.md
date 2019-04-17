@@ -15,3 +15,5 @@ tags: meeting <+ tags +>
 Chen Zhu from Birmingham Law School will be discussing "Hacking Copyright: An Anecdotal History from Saint Columba to Richard Stallman"
 
 Presentation slides
+
+You can find the slides [here](../slides/20181015_TheHackerWithin_ReproducibleResearch.pdf)
